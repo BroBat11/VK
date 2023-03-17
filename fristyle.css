@@ -1,0 +1,190 @@
+﻿body {
+    background-color: #C0C0C0;
+}
+
+.fl {
+	margin: 10px;
+    display: flex;
+
+}
+
+.fl-v {
+    flex-direction: column;
+}
+
+.header {
+    border-radius: 0%;
+    background-color: #4C75A3;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    width: 1400px
+}
+
+.img-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.search {
+    border: solid 1px;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 80px;
+    margin: 20px width: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 90px;
+    margin: 10px;
+    margin-left: 10px;
+    line-height: 0.3;
+}
+
+
+
+
+.friend-panel {
+    height: 1300px;
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.friend-count {
+    height: 40px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #4C75A3;
+    color: #fff;
+}
+
+.friend-search {
+	margin-left: 50px;
+    border: solid 1px;
+    height: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friend-search input[type="text"] {
+    height: 30px;
+    width: 300px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.friend-search button {
+	border: solid 1px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4C75A3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.friend-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.friend {
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.friend-photo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend-name {
+	float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.friend-name a{
+    color: black;
+}
+
+.friend-work {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.friend-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.friend-info button {
+margin-top}
+  
+  
+  
+
+.photo-container {
+  margin-left: 10px;
+  height: 700px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.photo-container img {
+  max-height: 100%;
+  max-width: 100%;
+}
